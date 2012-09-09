@@ -1,0 +1,16 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="adapters/Main.cs">
+    <Files>
+      <File FileName="adapters/IPerson.cs" Line="14" Column="1" />
+      <File FileName="adapters/Person.cs" Line="5" Column="22" />
+      <File FileName="adapters/OldPerson.cs" Line="17" Column="3" />
+      <File FileName="adapters/Main.cs" Line="28" Column="1" />
+      <File FileName="adapters/PersonAdapter.cs" Line="15" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
