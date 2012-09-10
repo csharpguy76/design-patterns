@@ -2,6 +2,9 @@ using System;
 
 namespace adapters
 {
+	/// <summary>
+	/// Person adapter.
+	/// </summary>
 	public class PersonAdapter : IPerson
 	{
 		private OldPerson oldPerson;
