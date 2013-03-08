@@ -1,12 +1,20 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="adapters/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="bridge/Main.cs">
     <Files>
-      <File FileName="adapters/IPerson.cs" Line="14" Column="1" />
-      <File FileName="adapters/Person.cs" Line="5" Column="22" />
-      <File FileName="adapters/OldPerson.cs" Line="17" Column="3" />
+      <File FileName="adapters/IPerson.cs" Line="11" Column="3" />
+      <File FileName="adapters/Person.cs" Line="1" Column="1" />
+      <File FileName="adapters/OldPerson.cs" Line="1" Column="1" />
       <File FileName="adapters/Main.cs" Line="28" Column="1" />
-      <File FileName="adapters/PersonAdapter.cs" Line="15" Column="30" />
+      <File FileName="adapters/PersonAdapter.cs" Line="9" Column="3" />
+      <File FileName="facade/Engine.cs" Line="9" Column="1" />
+      <File FileName="facade/Body.cs" Line="19" Column="3" />
+      <File FileName="facade/Wheels.cs" Line="22" Column="1" />
+      <File FileName="facade/Seats.cs" Line="9" Column="1" />
+      <File FileName="facade/Car.cs" Line="43" Column="1" />
+      <File FileName="facade/Main.cs" Line="12" Column="3" />
+      <File FileName="facade/BodyType.cs" Line="13" Column="1" />
+      <File FileName="bridge/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structural", "structural", "{F21270F8-5175-433F-8ED3-A3F7D33FC7BB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapters", "adapters\adapters.csproj", "{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facade", "facade\facade.csproj", "{7E172188-9982-4F53-B9A4-76F0D5DBDA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bridge", "bridge\bridge.csproj", "{989489D1-0E31-46C2-ACBA-9F99FE12C96B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "creational", "creational", "{5E444A59-B3D1-4890-BC18-5FF1FD03E062}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +25,17 @@ Global
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Debug|x86.Build.0 = Debug|x86
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|x86.ActiveCfg = Release|x86
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|x86.Build.0 = Release|x86
+		{989489D1-0E31-46C2-ACBA-9F99FE12C96B}.Debug|x86.ActiveCfg = Debug|x86
+		{989489D1-0E31-46C2-ACBA-9F99FE12C96B}.Debug|x86.Build.0 = Debug|x86
+		{989489D1-0E31-46C2-ACBA-9F99FE12C96B}.Release|x86.ActiveCfg = Release|x86
+		{989489D1-0E31-46C2-ACBA-9F99FE12C96B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
+		{989489D1-0E31-46C2-ACBA-9F99FE12C96B} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = facade\facade.csproj
+		StartupItem = bridge\bridge.csproj
 	EndGlobalSection
 EndGlobal
