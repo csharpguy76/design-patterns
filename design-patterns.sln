@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structural", "structural", "{F21270F8-5175-433F-8ED3-A3F7D33FC7BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapters", "adapters\adapters.csproj", "{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}"
@@ -9,20 +9,50 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facade", "facade\facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bridge", "bridge\bridge.csproj", "{989489D1-0E31-46C2-ACBA-9F99FE12C96B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "composite", "composite\composite.csproj", "{06D84CD4-E58A-4549-8CB6-27B97762C106}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "creational", "creational", "{5E444A59-B3D1-4890-BC18-5FF1FD03E062}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Debug|Any CPU.Build.0 = Debug|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Debug|x86.ActiveCfg = Debug|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Debug|x86.Build.0 = Debug|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Release|Any CPU.ActiveCfg = Release|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Release|Any CPU.Build.0 = Release|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Release|Mixed Platforms.Build.0 = Release|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Release|x86.ActiveCfg = Release|x86
+		{06D84CD4-E58A-4549-8CB6-27B97762C106}.Release|x86.Build.0 = Release|x86
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Debug|x86.ActiveCfg = Debug|x86
 		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Debug|x86.Build.0 = Debug|x86
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Release|Any CPU.ActiveCfg = Release|x86
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Release|Mixed Platforms.Build.0 = Release|x86
 		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Release|x86.ActiveCfg = Release|x86
 		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1}.Release|x86.Build.0 = Release|x86
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Debug|x86.ActiveCfg = Debug|x86
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Debug|x86.Build.0 = Debug|x86
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|Any CPU.ActiveCfg = Release|x86
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|Mixed Platforms.Build.0 = Release|x86
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|x86.ActiveCfg = Release|x86
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04}.Release|x86.Build.0 = Release|x86
 		{989489D1-0E31-46C2-ACBA-9F99FE12C96B}.Debug|x86.ActiveCfg = Debug|x86
@@ -34,8 +64,12 @@ Global
 		{201C6F3B-6EB0-4CDA-9EC5-2E06A2EC42D1} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
 		{7E172188-9982-4F53-B9A4-76F0D5DBDA04} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
 		{989489D1-0E31-46C2-ACBA-9F99FE12C96B} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
+		{06D84CD4-E58A-4549-8CB6-27B97762C106} = {F21270F8-5175-433F-8ED3-A3F7D33FC7BB}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = bridge\bridge.csproj
+		StartupItem = adapters\adapters.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
