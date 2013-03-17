@@ -14,7 +14,7 @@
       <File FileName="facade/Car.cs" Line="43" Column="1" />
       <File FileName="facade/Main.cs" Line="12" Column="3" />
       <File FileName="facade/BodyType.cs" Line="13" Column="1" />
-      <File FileName="bridge/Main.cs" Line="10" Column="4" />
+      <File FileName="bridge/Main.cs" Line="13" Column="1" />
       <File FileName="bridge/AssemblyInfo.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -22,10 +22,10 @@
         <State expanded="True">
           <Node name="structural" expanded="True">
             <Node name="adapters" expanded="True" />
-            <Node name="bridge" expanded="True">
-              <Node name="Main.cs" selected="True" />
+            <Node name="bridge" expanded="True" />
+            <Node name="composite" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
             </Node>
-            <Node name="composite" expanded="True" />
           </Node>
         </State>
       </Pad>
