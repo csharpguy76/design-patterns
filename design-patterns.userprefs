@@ -1,6 +1,6 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="bridge/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="factory/HardwareFactory.cs">
     <Files>
       <File FileName="adapters/IPerson.cs" Line="11" Column="3" />
       <File FileName="adapters/Person.cs" Line="1" Column="1" />
@@ -16,23 +16,34 @@
       <File FileName="facade/BodyType.cs" Line="13" Column="1" />
       <File FileName="bridge/Main.cs" Line="13" Column="1" />
       <File FileName="bridge/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="composite/IMember.cs" Line="9" Column="2" />
+      <File FileName="composite/Parent.cs" Line="30" Column="32" />
+      <File FileName="composite/Main.cs" Line="15" Column="31" />
+      <File FileName="composite/Child.cs" Line="30" Column="2" />
+      <File FileName="factory/IHardware.cs" Line="7" Column="22" />
+      <File FileName="factory/Monitor.cs" Line="13" Column="52" />
+      <File FileName="factory/Keyboard.cs" Line="13" Column="54" />
+      <File FileName="factory/HardwareFactory.cs" Line="16" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
+          <Node name="creational" expanded="True">
+            <Node name="factory" expanded="True" selected="True" />
+          </Node>
           <Node name="structural" expanded="True">
             <Node name="adapters" expanded="True" />
             <Node name="bridge" expanded="True" />
-            <Node name="composite" expanded="True">
-              <Node name="References" expanded="True" selected="True" />
-            </Node>
+            <Node name="composite" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/home/davidloo/dev/design-patterns/composite/Parent.cs" line="10" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
